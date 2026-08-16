@@ -1,17 +1,53 @@
-# edushed
+# EDShed - Educational Scheduler
 
-A new Flutter project.
+EDShed is a Flutter-based educational scheduling application designed to help create and manage academic timetables.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Import data from CSV files
+* Automatic timetable generation
+* Teachers assign to classes
+* Room allocation
+* Priority-based scheduling
+* Timetable optimization
+* Multiple timetable views
+* Conflict detections and avoid double allocations
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Flutter
+* Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How It Works
+
+The user adds scheduling data such as teachers, rooms, and classes. EDShed then automatically generates a timetable while assigning available teachers and rooms.
+
+The application uses scheduling priorities to help create an organized and optimized timetable.
+
+## Main Purpose
+
+EDShed aims to reduce the time and effort required to manually create educational timetables and schedules.
+
+## Running the Project
+
+1. Clone the repository.
+2. Open the project in VS Code or Android Studio.
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the application:
+
+```bash
+flutter run
+```
+
+## Project Name
+
+**EDShed** stands for **Educational Scheduler**.
+
+## License
+
+This project is developed for educational purposes.
